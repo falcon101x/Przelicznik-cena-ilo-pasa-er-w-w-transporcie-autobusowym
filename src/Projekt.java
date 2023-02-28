@@ -33,20 +33,13 @@ public class Projekt  {
         iloscpasazerow.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
+                iloscpasazerow.setText("0");
             }
         });
         polekoszt.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-            }
-        });
-        wartoscprzychodu.addActionListener(new ActionListener() {
-            @Override
-            public void actionPerformed(ActionEvent e) {
-            }
-        });
-        zysk.addActionListener(new ActionListener() {
-            public void actionPerformed(ActionEvent e) {
+                polekoszt.setText("0");
             }
         });
         oblicz.addActionListener(new ActionListener() {
